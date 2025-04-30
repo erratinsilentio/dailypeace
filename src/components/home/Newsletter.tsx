@@ -16,7 +16,7 @@ return (
               <input
                 type="email"
                 placeholder="Your email address"
-                className="flex-1 px-4 py-3 rounded-full dark:bg-black border border-[#2c2621] dark:placeholder:text-zinc-100 dark:placeholder:opacity-50 placeholder:text-zinc-400"
+                className="flex-1 px-4 py-3 rounded-full bg-[#F7F8FA]/50 dark:bg-black border border-[#2c2621] dark:placeholder:text-zinc-100 dark:placeholder:opacity-50 placeholder:text-zinc-400"
                 required
               />
               <Button type="submit" className="rounded-full bg-emerald-700 px-5 py-5">

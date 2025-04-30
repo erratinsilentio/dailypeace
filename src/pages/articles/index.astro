@@ -1,0 +1,16 @@
+---
+import BlogPosts from '@/components/articles/BlogPosts';
+import Newsletter from '@/components/home/Newsletter';
+import MainLayout from '@/layouts/MainLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<MainLayout>
+  <BlogPosts />
+  <Newsletter />
+</MainLayout>
+---

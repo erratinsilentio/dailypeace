@@ -7,7 +7,7 @@ export default function WelcomeSection() {
           <p className="font-[Amatic_SC] text-4xl md:text-5xl lg:text-6xl font-medium text-center tracking-tight dark:text-white text-gray-900 mb-6">
           <span className="inline-block h-px w-6 bg-purple-600 mr-3 align-middle"></span>
             Welcome Wanderers
-            <span className="inline-block h-px w-6 bg-purple-600 ml-3 align-middle"></span>
+          <span className="inline-block h-px w-6 bg-purple-600 ml-3 align-middle"></span>
 
           </p>
   
