@@ -3,7 +3,7 @@ import { Feather, Star, Compass, Flower2, ArrowUpRight } from "lucide-react"
 
 export default function Categories() {
   return (
-    <section className="container mx-auto px-24 py-8 dark:bg-stone-900 min-w-screen">
+    <section className="container mx-auto px-8 md:px-24 py-6 md:py-8 dark:bg-stone-900 min-w-screen">
       <div className="mb-12">
         <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-purple-50 dark:bg-purple-950/30 mb-6">
           <div className="w-2 h-2 rounded-full bg-purple-400"></div>
