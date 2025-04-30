@@ -1,8 +1,7 @@
 export default function WelcomeSection() {
     return (
-      <section className="relative px-6 pt-24 pb-16 w-full overflow-hidden">
-        
-  
+      <section className="relative px-6 pt-24 pb-16 w-full overflow-hidden dark:bg-stone-900">
+         
         <div className="max-w-4xl mx-auto pt-12"> 
           {/* Modern heading */}
           <p className="font-[Amatic_SC] text-4xl md:text-5xl lg:text-6xl font-medium text-center tracking-tight dark:text-white text-gray-900 mb-6">

@@ -1,7 +1,7 @@
 export default function QuoteSection() {
     
     return (
-      <section className="container mx-auto px-4 pt-16">
+      <section className="container mx-auto px-4 pt-16 dark:bg-stone-900 min-w-screen">
         <div className="max-w-3xl mx-auto text-center">
           <div className="text-5xl text-emerald-700 font-serif mb-6">"</div>
           <p className="text-2xl md:text-3xl italic mb-6 dark:text-[#f4f2f1] text-black font-[Indie_Flower]">

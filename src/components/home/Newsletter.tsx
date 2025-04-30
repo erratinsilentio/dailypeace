@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function Newsletter() {
 return (
-      <section className="px-40 py-20 pb-10 dark:bg-black">
+      <section className="px-40 py-20 pb-10 dark:bg-stone-900">
         <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#4db3910d]/5 via-violet-500/25 to-transparent p-8 md:p-12 border border-pink-900/25">
 
           <div className="relative max-w-2xl mx-auto text-center dark:text-white">

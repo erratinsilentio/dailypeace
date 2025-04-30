@@ -3,15 +3,15 @@ import { Feather, Star, Compass, Flower2, ArrowUpRight } from "lucide-react"
 
 export default function Categories() {
   return (
-    <section className="container mx-auto px-6 py-8">
+    <section className="container mx-auto px-24 py-8 dark:bg-stone-900 min-w-screen">
       <div className="mb-12">
         <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-purple-50 dark:bg-purple-950/30 mb-6">
           <div className="w-2 h-2 rounded-full bg-purple-400"></div>
           <span className="text-xs font-medium text-purple-600 dark:text-purple-300">Discover</span>
         </div>
-        <h2 className="font-[Amatic_SC] text-4xl md:text-4xl font-medium tracking-tight dark:text-white text-gray-900 mb-3">
+        <p className="font-[Amatic_SC] text-4xl md:text-4xl font-medium tracking-tight dark:text-white text-gray-900 mb-3">
           Explorations
-        </h2>
+        </p>
         <p className="font-[Indie_Flower] text-gray-500 dark:text-gray-400 max-w-md">
           Discover new perspectives and expand your understanding of the universe.
         </p>
