@@ -1,5 +1,3 @@
-import { Button } from "../ui/button";
-
 export default function Footer() {
   return (
     <footer className="dark:bg-stone-900">
