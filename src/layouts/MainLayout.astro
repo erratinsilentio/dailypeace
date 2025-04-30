@@ -3,6 +3,8 @@ import BaseHead from "@/components/BaseHead.astro";
 import Footer from "@/components/home/Footer";
 import Header from "@/components/home/Header";
 import { SITE_TITLE, SITE_DESCRIPTION } from "@/consts";
+const { pathname } = Astro.url;
+
 ---
 
 <!doctype html>
@@ -11,7 +13,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "@/consts";
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body class="bg-black">
-        <Header client:load/>
+        <Header currentPath={pathname} client:load/>
         <slot />
 		<Footer />
 	</body>
