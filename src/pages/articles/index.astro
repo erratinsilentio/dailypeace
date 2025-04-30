@@ -10,7 +10,7 @@ const posts = (await getCollection('blog')).sort(
 ---
 
 <MainLayout>
-  <BlogPosts />
+  <BlogPosts posts={posts} />
   <Newsletter />
 </MainLayout>
 ---
