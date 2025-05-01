@@ -5,7 +5,7 @@ export default function Header({ currentPath }: { currentPath: string }) {
   const navItems = [
     { href: "/", label: "Home" },
     { href: "/articles", label: "Articles" },
-    { href: "/about", label: "About" },
+    { href: "/contact", label: "Contact" },
   ];
 
   return (
