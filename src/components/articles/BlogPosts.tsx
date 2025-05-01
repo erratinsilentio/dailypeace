@@ -2,7 +2,7 @@ import SinglePost from "@/components/articles/SinglePost";
 
 export default function BlogPosts({posts}) {
   return (
-    <section className="min-w-screen h-full flex flex-col items-center justify-center pt-36 dark:bg-stone-900">
+    <section className="min-w-screen h-full flex flex-col items-center justify-center md:pt-36 dark:bg-stone-900">
       <p className="font-[Amatic_SC] text-4xl md:text-5xl lg:text-6xl font-medium text-center tracking-tight dark:text-white text-gray-900 mb-6">
         <span className="inline-block h-px w-6 bg-purple-600 mr-3 align-middle"></span>
         Articles
