@@ -19,7 +19,7 @@ export default function Categories() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
         {categories.map((category, index) => (
-          <a href="#" key={index} className="group relative isolate">
+          <a href="/articles" key={index} className="group relative isolate">
             <div className="relative overflow-hidden rounded-2xl group-hover:scale-110 transition duration-300 ease-in-out">
                 <img src={category.image} alt={category.title} className="w-full h-52 object-cover rounded-lg shadow-md group-hover:scale-200 transition duration-500" />
                 <span className="text-[20px] absolute text-white font-[Amatic_SC] top-1/3 left-1/2 -translate-x-1/2">{category.title}</span>
